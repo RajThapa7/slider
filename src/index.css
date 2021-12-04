@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.image{
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+.container{
+  text-align: center;
+  background-color: red;
+  height: 30vw;
+
+}
+
+.outer-container{
+  background-color: blue;
+  text-align: center;
+  width: 50vw;
+  height: 35vw;
+  padding: 1.5rem;
+  margin: auto auto;
+}
+.text{
+  text-align: justify;
+}
+.title{
+  text-align: center;
+  text-decoration: underline 5px #3db1ff;
+}
