@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(241, 237, 237);
 }
 
 code {
@@ -21,23 +22,55 @@ code {
 }
 .container{
   text-align: center;
-  background-color: red;
-  height: 30vw;
+  background-color:white;
+  height: 21vw;
 
 }
 
 .outer-container{
-  background-color: blue;
+  background-color: white;
   text-align: center;
-  width: 50vw;
-  height: 35vw;
+  width: 45vw;
+  height: 27vw;
   padding: 1.5rem;
   margin: auto auto;
+  box-shadow: 10px 10px 20px gray;
+  border: none;
 }
 .text{
   text-align: justify;
+  color:rgb(105, 103, 103);
 }
 .title{
   text-align: center;
   text-decoration: underline 5px #3db1ff;
+}
+.job{
+  position: relative;
+  margin-top: -20px;
+  text-transform : uppercase;
+   color: rgb(30, 149, 196)
+}
+.previous{
+  color: rgb(35, 165, 197);
+  margin-right: 2%;
+  font-size: 1.5rem;
+}
+.next{
+  color: rgb(35, 165, 197);
+  margin-left: 2%;
+  font-size: 1.5rem;
+}
+.random{
+  color: rgb(35, 165, 197);
+  border: none;
+  margin-top: 2%;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  transition: all 0.8s ease;
+}
+
+.random:hover{
+  color: rgb(36, 34, 34);
+  background-color: rgb(35, 165, 197);
 }

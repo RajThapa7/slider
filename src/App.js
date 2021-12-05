@@ -3,6 +3,8 @@ import './App.css';
 import data from './data';
 import Review from './review';
 import "./index.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 function App() {
@@ -31,9 +33,15 @@ function App() {
 <div className="outer-container">
     <Review props={data[index]} />
   <p>
-    <button onClick={()=>previous()}>Previous</button>
-    <button onClick={()=>random()}>Random</button>
-    <button onClick={()=>next()}>Next</button>
+  <FontAwesomeIcon icon={faArrowLeft} onClick={()=>previous()} className="previous">
+{/* <button onClick={()=>previous()}>Previous</button> */}
+</FontAwesomeIcon>
+    <FontAwesomeIcon icon={faArrowRight} onClick={()=>next()} className="next">
+    // <button onClick={()=>next()}>Next</button>
+    </FontAwesomeIcon>
+    <br />
+    <button onClick={()=>random()} className="random">Suprise Me</button>
+
 
   </p>
 </div>    
