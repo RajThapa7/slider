@@ -2,6 +2,7 @@ import React from 'react'
 import "./index.css"
 
 export default function Review({props}) {
+  
     return (
         <div className="container">
             <img src={props.image} alt={props.image} className="image"/>
